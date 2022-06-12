@@ -94,7 +94,7 @@ section {
 }
 .btn {
   cursor: pointer;
-  padding: 1rem 2.5rem;
+  padding: 0.75rem 1.5rem;
   background-color: var(--pink);
   font-size: 1.25rem;
   color: var(--white);
@@ -245,7 +245,50 @@ Navbar
   padding: 0.5rem;
   margin-bottom: 4rem;
 }
+/* sem */
+.sem-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.sem-container > div {
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--grey-1);
+  color: var(--grey-4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.sem-container > div > div h2 {
+  display: inline-block;
+  color: var(--yellow);
+  background-color: rgba(29, 27, 27, 0.419);
+  padding: 2rem;
+  border-radius: 50%;
+}
+.sem-container > div h2 {
+  color: var(--primary-2);
+  background-color: rgba(54, 52, 52, 0.595);
+}
+.sem-container > div p {
+  color: var(--sky);
+  background-color: rgba(54, 52, 52, 0.703);
+}
+
+.sem-container .sem-one {
+  background-image: url(./images/computer.jpg);
+}
+.sem-container .sem-two {
+  background-image: url(./images/account.jpg);
+}
+.sem-container .sem-three {
+  background-image: url(./images/chem.jpg);
+}
+.sem-container .sem-four {
+  background-image: url(./images/physics.jpg);
+}
 /* footer */
 footer {
   background-color: var(--grey-1);

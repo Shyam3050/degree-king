@@ -88,11 +88,8 @@ ul {
 }
 
 /* custom css */
-
-.img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
+section {
+  margin-top: 3rem;
 }
 .btn {
   cursor: pointer;
@@ -104,6 +101,10 @@ ul {
   border: transparent;
   display: inline-block;
   line-height: 1;
+}
+img {
+  width: 100%;
+  height: 100%;
 }
 /*
 =============== 
@@ -174,7 +175,7 @@ Navbar
   height: 21.25rem;
 }
 .page {
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto;
   max-width: var(--max-width);
   /* background-color: red; */
@@ -202,19 +203,33 @@ Navbar
   margin-bottom: 2rem;
 }
 .hero-img {
-  width: 40vw;
+  width: 35vw;
   max-width: 560px;
   min-width: 270px;
-  height: 40vh;
+  height: 30vh;
   object-fit: cover;
 }
-.hero-img img {
-  width: 100%;
-  height: 100%;
-}
+
 @media screen and (max-width: 600px) {
   .hero-container {
     flex-direction: column;
     align-items: flex-start;
   }
+}
+/* about  */
+.about-text h2 {
+  color: var(--grey-4);
+  border-bottom: 1px solid var(--yellow);
+  padding-bottom: 1rem;
+}
+.about-text p {
+  color: var(--grey-3);
+}
+.about-text p span {
+  color: var(--grey-4);
+}
+.about-img {
+  width: 80vw;
+  height: auto;
+  object-fit: cover;
 }

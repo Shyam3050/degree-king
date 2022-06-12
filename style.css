@@ -245,3 +245,17 @@ Navbar
   padding: 0.5rem;
   margin-bottom: 4rem;
 }
+
+/* footer */
+footer {
+  background-color: var(--grey-1);
+  padding: 0.25rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--grey-3);
+}
+footer a {
+  color: var(--grey-4);
+  text-decoration: underline;
+  letter-spacing: 2px;
+}

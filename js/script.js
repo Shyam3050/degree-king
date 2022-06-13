@@ -14,10 +14,10 @@ nav_btn.addEventListener("click", () => {
 const cross = document.querySelectorAll(".sub-cross");
 const check = document.querySelectorAll(".check");
 const subject = document.querySelectorAll(".subject");
-console.log(subject);
+console.log(check);
 cross.forEach((cross, index) => {
   cross.addEventListener("click", () => {
-    subject[index].classList.add("active");
+    subject[index].classList.toggle("active");
   });
 });
 check.forEach((check, index) => {

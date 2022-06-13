@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 } /*16px*/
 :root {
   /* colors */
@@ -106,6 +107,12 @@ section {
 img {
   width: 100%;
   height: 100%;
+}
+section > h2 {
+  color: var(--grey-4);
+  border-bottom: 1px solid var(--yellow);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 /*
 =============== 
@@ -218,11 +225,7 @@ Navbar
   }
 }
 /* about  */
-.about-text h2 {
-  color: var(--grey-4);
-  border-bottom: 1px solid var(--yellow);
-  padding-bottom: 1rem;
-}
+
 .about-text p {
   color: var(--grey-3);
 }
@@ -291,6 +294,13 @@ Navbar
 .sem-container .sem-four {
   background-image: url(./images/physics.jpg);
 }
+.sem-container .sem-five {
+  background-image: url(./images/laptop.jpg);
+}
+
+.sem-container .sem-six {
+  background-image: url(./images/history.jpg);
+}
 .sem-container .subject {
   position: absolute;
   bottom: 0;
@@ -327,6 +337,7 @@ Navbar
 }
 .sem-container .subject .sub-cross .cross {
   display: block;
+  cursor: pointer;
   background-color: var(--grey-3);
   width: 80%;
   height: 4px;

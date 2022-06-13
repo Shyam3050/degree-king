@@ -158,8 +158,18 @@ Navbar
   height: 3px;
   width: 100%;
   background-color: var(--white);
+  transition: 0.5s;
 }
-
+.nav-toggle-btn.active .one {
+  transform: translateY(8px) rotate(45deg);
+}
+.nav-toggle-btn.active .two {
+  visibility: hidden;
+  transition: 0s;
+}
+.nav-toggle-btn.active .three {
+  transform: translateY(-10px) rotate(-45deg);
+}
 .nav-links {
   height: 0;
   overflow: hidden;
@@ -175,6 +185,9 @@ Navbar
   color: var(--grey-3);
   border-bottom: 1px solid var(--grey-2);
   transition: var(--transition);
+}
+.nav-link.high-light {
+  color: var(--yellow);
 }
 .nav-link:hover {
   color: var(--yellow);

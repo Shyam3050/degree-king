@@ -252,6 +252,7 @@ Navbar
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .sem-container > div {
+  position: relative;
   border-radius: 10px;
   text-align: center;
   padding: 2rem;
@@ -259,6 +260,7 @@ Navbar
   color: var(--grey-4);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .sem-container > div > div h2 {
@@ -289,7 +291,46 @@ Navbar
 .sem-container .sem-four {
   background-image: url(./images/physics.jpg);
 }
-/* footer */
+.sem-container .subject {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* transform: translateY(100%); */
+  transition: 0.5s;
+  background-color: var(--backgroundColor);
+  height: 60%;
+  overflow-y: scroll;
+  scrollbar-color: var(--pink) var(--yellow);
+  scrollbar-width: thin;
+}
+.sem-container .subject ul li {
+  border: 1px solid var(--yellow);
+  margin: 1rem;
+  padding: 0.25rem;
+  font-size: 1.5rem;
+}
+.sem-container .subject .sub-cross {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  float: right;
+  width: 40px;
+  height: 40px;
+  background: rgba(12, 12, 12, 0.899);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+}
+.sem-container .subject .sub-cross .cross {
+  display: block;
+  background-color: var(--grey-3);
+  width: 80%;
+  height: 4px;
+}
+/* footrer */
 footer {
   background-color: var(--grey-1);
   padding: 0.25rem;

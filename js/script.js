@@ -12,15 +12,16 @@ nav_btn.addEventListener("click", () => {
 });
 // cross close for semester
 const cross = document.querySelectorAll(".sub-cross");
-const explore = document.querySelector(".subject");
-const check = getElement(".check");
-// console.log(cross);
-cross.forEach((cross) => {
+const check = document.querySelectorAll(".check");
+const subject = document.querySelectorAll(".subject");
+console.log(subject);
+cross.forEach((cross, index) => {
   cross.addEventListener("click", () => {
-    console.log(cross);
+    subject[index].classList.add("active");
   });
 });
-// explore.classList.add("active");
-check.addEventListener("click", () => {
-  explore.classList.add("active");
+check.forEach((check, index) => {
+  check.addEventListener("click", () =>
+    subject[index].classList.toggle("active")
+  );
 });

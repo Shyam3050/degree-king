@@ -20,6 +20,7 @@ const nav_link = getAllElement(".nav-link");
 nav_link.forEach((check) => {
   check.addEventListener("click", () => {
     links.classList.toggle("show-links");
+    nav_btn.classList.toggle("active");
   });
 });
 // for nav-btn

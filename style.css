@@ -296,13 +296,15 @@ Navbar
   bottom: 0;
   left: 0;
   right: 0;
-  /* transform: translateY(100%); */
   transition: 0.5s;
   background-color: var(--backgroundColor);
   height: 60%;
   overflow-y: scroll;
   scrollbar-color: var(--pink) var(--yellow);
   scrollbar-width: thin;
+}
+.sem-container .subject.active {
+  transform: translateY(100%);
 }
 .sem-container .subject ul li {
   border: 1px solid var(--yellow);
@@ -322,13 +324,18 @@ Navbar
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 6px;
 }
 .sem-container .subject .sub-cross .cross {
   display: block;
   background-color: var(--grey-3);
   width: 80%;
   height: 4px;
+}
+.sem-container .subject .sub-cross .one {
+  transform: translateY(2px) rotate(-45deg);
+}
+.sem-container .subject .sub-cross .two {
+  transform: translateY(-2px) rotate(45deg);
 }
 /* footrer */
 footer {

@@ -114,6 +114,39 @@ section > h2 {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+/* loader */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(61, 55, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.loader {
+  border: 6px solid rgb(235, 220, 220); /* Light grey */
+  border-top: 6px solid rgb(171, 171, 171); /* Blue */
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /*
 =============== 
 Navbar

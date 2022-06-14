@@ -12,7 +12,7 @@ const getAllElement = (selector) => {
     `All-Selector Say! please check the class names, there is no ${selector}`
   );
 };
-
+const loader_wrapper = getElement(".loader-wrapper");
 const links = getElement(".nav-links");
 const nav_btn = getElement(".nav-toggle-btn");
 const nav_link = getAllElement(".nav-link");
@@ -44,3 +44,12 @@ check.forEach((check, index) => {
     subject[index].classList.toggle("active")
   );
 });
+
+// after load window
+
+window.addEventListener("load", () => {
+  setTimeout(removeLoader, 2000);
+});
+function removeLoader() {
+  loader_wrapper.remove();
+}

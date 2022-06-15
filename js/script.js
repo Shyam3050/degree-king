@@ -48,7 +48,7 @@ check.forEach((check, index) => {
 // after load window
 
 window.addEventListener("load", () => {
-  setTimeout(removeLoader, 1000);
+  setTimeout(removeLoader, 2000);
 });
 function removeLoader() {
   loader_wrapper.remove();

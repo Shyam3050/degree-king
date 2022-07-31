@@ -50,4 +50,3 @@ check.forEach((check, index) => {
 window.addEventListener("load", () => {
   loader_wrapper.remove();
 });
-

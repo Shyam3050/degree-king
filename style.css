@@ -22,14 +22,14 @@ html {
   --yellow: #ffb703;
   --pink: #f72585;
   --red: #dd1c1a;
-  --sky: #2ec4b6;
+  --sky: #71fff1;
   --white: #fff;
   /* fonts */
   --headingFont: "Roboto", sans-serif;
   --bodyFont: "Nunito", sans-serif;
   --smallText: 0.7em;
   --letterSpacing: 1px;
-  --backgroundColor: rgb(33, 31, 31);
+  --backgroundColor: #212529;
   --transition: 0.3s ease-in-out all;
   --max-width: 1200px;
   --fixed-width: 600px;
@@ -150,16 +150,21 @@ Navbar
 ===============
 */
 .navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--grey-1);
+  z-index: 9999999999;
 }
 .nav-center {
   width: 90vw;
   max-width: var(--max-width);
 }
 .nav-header {
-  height: 6rem;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -257,8 +262,9 @@ Navbar
   width: 35vw;
   max-width: 560px;
   min-width: 270px;
-  height: 30vh;
+  height: auto;
   object-fit: cover;
+ padding-block: 3rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -271,6 +277,7 @@ Navbar
 
 .about-text p {
   color: var(--grey-3);
+  
 }
 .about-text p span {
   color: var(--grey-4);
@@ -311,17 +318,17 @@ Navbar
 
 .sem-container > div > div h2 {
   display: inline-block;
-  color: var(--yellow);
+  color: #E4E4E4;
   background-color: rgba(29, 27, 27, 0.419);
   padding: 2rem;
   border-radius: 50%;
 }
 .sem-container > div h2 {
-  color: var(--primary-2);
+  color: #EF8F6E;
   background-color: rgba(54, 52, 52, 0.595);
 }
 .sem-container > div p {
-  color: var(--sky);
+  color: #7CCBFF;
   background-color: rgba(54, 52, 52, 0.703);
 }
 

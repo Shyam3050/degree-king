@@ -10,19 +10,19 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(233, 232, 232); 
+  background: rgb(233, 232, 232);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #a7a6a6; 
+  background: #a7a6a6;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
@@ -156,8 +156,6 @@ section > h2 {
   margin-bottom: 1rem;
 }
 
-
-
 /*
 =============== 
 Navbar
@@ -253,7 +251,7 @@ Navbar
   /* background-color: red; */
 }
 .hero {
-  padding-top: 3rem;
+  padding-top: 6rem;
 }
 .hero-container {
   display: flex;

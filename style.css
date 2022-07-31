@@ -186,14 +186,15 @@ Navbar
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 6px;
+  /* gap: 6px; */
 }
 .nav-toggle-btn .line {
   display: block;
-  height: 3px;
+  height: 4px;
   width: 100%;
   background-color: var(--white);
   transition: 0.5s;
+  margin-bottom: 6px;
 }
 .nav-toggle-btn.active .one {
   transform: translateY(8px) rotate(45deg);
@@ -203,7 +204,7 @@ Navbar
   transition: 0s;
 }
 .nav-toggle-btn.active .three {
-  transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 .nav-links {
   height: 0;
@@ -276,7 +277,6 @@ Navbar
 
 .about-text p {
   color: var(--grey-3);
-  
 }
 .about-text p span {
   color: var(--grey-4);
@@ -317,17 +317,17 @@ Navbar
 
 .sem-container > div > div h2 {
   display: inline-block;
-  color: #E4E4E4;
+  color: #e4e4e4;
   background-color: rgba(29, 27, 27, 0.419);
   padding: 2rem;
   border-radius: 50%;
 }
 .sem-container > div h2 {
-  color: #EF8F6E;
+  color: #ef8f6e;
   background-color: rgba(54, 52, 52, 0.595);
 }
 .sem-container > div p {
-  color: #7CCBFF;
+  color: #7ccbff;
   background-color: rgba(54, 52, 52, 0.703);
 }
 

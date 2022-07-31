@@ -259,14 +259,13 @@ Navbar
   margin-bottom: 2rem;
 }
 .hero-img {
-  width: 35vw;
+  width: 80vw;
   max-width: 560px;
   min-width: 270px;
   height: auto;
   object-fit: cover;
- padding-block: 3rem;
+  margin-top: 3rem;
 }
-
 @media screen and (max-width: 600px) {
   .hero-container {
     flex-direction: column;

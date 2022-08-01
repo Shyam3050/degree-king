@@ -181,10 +181,13 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .nav-header h2 {
   font-size: 2rem;
   color: var(--pink);
+  font-weight: 600;
+  
 }
 .nav-header h2 span {
   color: var(--sky);

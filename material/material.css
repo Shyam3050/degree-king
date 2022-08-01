@@ -227,3 +227,28 @@ Navbar
 .show-links {
   height: 21.25rem;
 }
+/* banner */
+.banner {
+  margin-top: 5rem;
+}
+/* filter */
+.filter{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.select {
+  min-width: 80px;
+  width: 25vw;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  background-color: var(--grey-4);
+}
+.get {
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1.2rem;
+}

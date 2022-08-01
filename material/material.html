@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./material.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./material.css" />
     <title>DegreeKing</title>
-</head>
-<body>
-     <!-- loader start -->
-     <div class="loader-wrapper">
-        <div class="loader">
-          <img src="../images/preloader.gif" alt="prepreloader.gif">
-          <h4>Loading...</h4>
+  </head>
+  <body>
+    <!-- loader start -->
+    <div class="loader-wrapper">
+      <div class="loader">
+        <img src="../images/preloader.gif" alt="prepreloader.gif" />
+        <h4>Loading...</h4>
+      </div>
+    </div>
+    <!-- loader end -->
+
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <h2>DEGREE <span>KING</span></h2>
+          <div class="nav-toggle-btn">
+            <span class="one line"></span>
+            <span class="two line"></span>
+            <span class="three line"></span>
+          </div>
+        </div>
+        <div class="nav-links">
+          <a href="#" class="nav-link high-light">Home</a>
+          <a href="#sem" class="nav-link">Semester</a>
+          <a href="./material/material.html" class="nav-link">Material</a>
+          <a href="./material/material.html" class="nav-link">Imp-Q</a>
+          <a href="https://mrshyam.netlify.app/#technology" class="nav-link"
+            >About-Me</a
+          >
         </div>
       </div>
-      <!-- loader end -->
+    </nav>
+    <!-- navbar end -->
 
-      <!-- navbar start -->
-      <nav class="navbar">
-        <div class="nav-center">
-          <div class="nav-header">
-            <h2>DEGREE <span>KING</span></h2>
-            <div class="nav-toggle-btn">
-              <span class="one line"></span>
-              <span class="two line"></span>
-              <span class="three line"></span>
-            </div>
-          </div>
-          <div class="nav-links">
-            <a href="#" class="nav-link high-light">Home</a>
-            <a href="#sem" class="nav-link">Semester</a>
-            <a href="./material/material.html" class="nav-link">Material</a>
-            <a href="./material/material.html" class="nav-link">Imp-Q</a>
-            <a href="https://mrshyam.netlify.app/#technology" class="nav-link"
-              >About-Me</a
-            >
-          </div>
-        </div>
-      </nav>
-      <!-- navbar end -->
+    <!-- banner stary -->
 
-      <!-- banner stary -->
-      
-      <header class="header">
-        <div class="banner">
-            <img src="./images/Degree king.png" alt="Degree king" />
-        </div>
-      </header>
-
-      <script src="./material.js"></script>
-</body>
+    <header class="header">
+      <div class="banner">
+        <img src="./images/Degree king.png" alt="Degree king" />
+      </div>
+    </header>
+    <section class="filter">
+      <select id="sem" class="select">
+        <option value="1sem">1sem</option>
+        <option value="2sem">2sem</option>
+        <option value="3sem">3sem</option>
+        <option value="4sem">4sem</option>
+        <option value="5sem">5sem</option>
+        <option value="6sem">6sem</option>
+      </select>
+      <select id="subject" class="select">
+        <option value="maths">Maths</option>
+        <option value="physics">Physics</option>
+        <option value="Computer">Computer</option>
+        <option value="chemistry">Chemistry</option>
+        <option value="english">English</option>
+      </select>
+      <button class="get">Get</button>
+    </section>
+    <script src="./material.js"></script>
+  </body>
 </html>

@@ -42,7 +42,7 @@ html {
   --yellow: #ffb703;
   --pink: #db0946;
   --green: #63c07a;
-  --blue: #001CB0;
+  --blue: #001cb0;
   /* fonts */
   --headingFont: "Roboto", sans-serif;
   --bodyFont: "Nunito", sans-serif;
@@ -94,10 +94,10 @@ h5 {
   font-size: 1.25rem;
 }
 h6 {
-    font-size: .8rem;
-    margin: 0;
-    padding: 0;
-  }
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
 
 a {
   text-decoration: none;
@@ -238,11 +238,10 @@ Navbar
   margin-top: 5rem;
 }
 /* filter */
-.filter{
-display: flex;
-justify-content: center;
-align-items: center;
-
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .select {
   min-width: 80px;
@@ -260,42 +259,50 @@ align-items: center;
   outline: none;
   transition: 0.5s;
 }
-.get:hover{
-    background-color: var(--grey-2);
+.get:hover {
+  background-color: var(--grey-2);
 }
 /* mark */
-.mark{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.tenMark,.fiveMark{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    border: 1px solid  var(--grey-4);
-    padding: .5rem .25rem;
+.tenMark,
+.fiveMark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border: 1px solid var(--grey-4);
+  padding: 0.5rem 0.25rem;
 }
-.marking{
-    width: 70px;
-    height:25px;
-    margin-left: .5rem;
+.marking {
+  width: 70px;
+  height: 25px;
+  margin-left: 0.5rem;
 }
-.marking.pink{
-    background-color: var(--pink);
+.marking.pink {
+  background-color: var(--pink);
 }
-.marking.green{
-    background-color: var(--green);
+.marking.green {
+  background-color: var(--green);
 }
 /* questions */
-.questions h5{
- color: var(--blue);
+.questions h5 {
+  color: var(--blue);
 }
-.tenMarkQ{
-    width: 100%;
-    background-color: var(--pink);
-    padding-inline:7px;
-    color: white;
+.tenMarkQ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 100%;
+  background-color: var(--pink);
+  padding-inline: 7px;
+  color: white;
+}
+
+.star {
+  width: 100px;
 }

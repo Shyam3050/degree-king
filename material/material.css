@@ -92,6 +92,11 @@ h4 {
 h5 {
   font-size: 1.25rem;
 }
+h6 {
+    font-size: .8rem;
+    margin: 0;
+    padding: 0;
+  }
 
 a {
   text-decoration: none;
@@ -252,4 +257,28 @@ align-items: center;
   color: white;
   padding: 0.5rem 1.2rem;
   outline: none;
+  transition: 0.5s;
+}
+.get:hover{
+    background-color: var(--grey-2);
+}
+/* mark */
+.mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tenMark,.fiveMark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    border: 2px solid black;
+    padding: 1rem .25rem;
+}
+.marking{
+    width: 50px;
+    height:25px;
+    background-color: var(--pink);
+    margin-left: .5rem;
 }

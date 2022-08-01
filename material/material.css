@@ -272,13 +272,18 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2rem;
+    margin-inline: 1rem;
     border: 2px solid black;
-    padding: 1rem .25rem;
+    padding: .75rem .25rem;
 }
 .marking{
     width: 50px;
     height:25px;
-    background-color: var(--pink);
     margin-left: .5rem;
+}
+.marking.pink{
+    background-color: var(--pink);
+}
+.marking.green{
+    background-color: var(--green);
 }

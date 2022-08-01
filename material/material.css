@@ -272,7 +272,8 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-inline: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     border: 2px solid black;
     padding: .75rem .25rem;
 }

@@ -319,3 +319,32 @@ margin-block: 4px;
 .fiveMarkQ{
     background-color: var(--green);
 }
+/* tenMarkAns */
+.tenMarkA {
+  background-color: var(--grey-4);
+  margin-top: -1rem;
+}
+.tenMarkA p{
+  margin: .3rem;
+}
+.tenMarkA .questionAns span{
+  color: red;
+}
+.tenMarkA .ans{
+  font-size: .9rem;
+  color: #353536;
+}
+.tenMarkA .ans span{
+  color: var(--green);
+  text-decoration: underline;
+}
+.tenMarkA h6 span{
+  color: var(--blue) ;
+}
+.download-btns button {
+margin: 1rem 1rem;
+border: none;
+padding: .5rem 2rem;
+border-radius: 2rem;
+}
+.download-btns 

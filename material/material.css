@@ -100,11 +100,6 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
-a {
-  text-decoration: none;
-  color: var(--grey-4);
-}
 ul {
   list-style-type: none;
   padding: 0;
@@ -229,6 +224,7 @@ Navbar
   color: var(--grey-3);
   border-bottom: 1px solid var(--grey-2);
   transition: var(--transition);
+  text-decoration: none;
 }
 .nav-link.high-light {
   color: var(--yellow);
@@ -346,5 +342,36 @@ margin: 1rem 1rem;
 border: none;
 padding: .5rem 2rem;
 border-radius: 2rem;
+transition: 0.5s;
 }
-.download-btns 
+.download-btns button.download{
+  background-color: var(--pink);
+  color: white;
+}
+.download-btns button:hover{
+  background-color: var(--green);
+  color: white;
+}
+.solution-img{
+margin: 1rem auto;
+max-width: 320px;
+}
+/* footer */
+footer{
+  background-color: var(--primary-1);
+}
+footer ul{
+  margin-inline: .8rem;
+}
+footer ul li a{
+  color: var(--grey-4);
+}
+.about{
+  background-color: var(--blue);
+  color: white;
+  text-align: center;
+}
+.about a{
+  color: var(--yellow);
+
+}

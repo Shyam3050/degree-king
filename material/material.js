@@ -34,3 +34,7 @@ const getElement = (selector) => {
     loader_wrapper.remove();
   });
   
+  // 
+  const sem = getElement("#sem");
+  console.log(sem)
+  

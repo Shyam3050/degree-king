@@ -119,6 +119,7 @@ get.addEventListener("click", () => {
     document.getElementById("questionHeader").innerHTML = "NO DATA Found";
   } else {
     const filteredSubSem = filteredArr[0];
+    document.getElementById("qs").innerHTML = "";
     // for 10Marks questions rendering
     for (let i = 0; i < filteredSubSem.ques10.length; i++) {
       const tenMarkQ = ` <div class="tenMarks">
@@ -157,7 +158,7 @@ get.addEventListener("click", () => {
       `;
       document.getElementById("qs").innerHTML += tenMarkQ;
     }
-    // for 5 marks questions rendering
+     // for 5 marks questions rendering
     for (let i = 0; i < filteredSubSem.ques5.length; i++) {
       const fiveMarkQ = ` <div class="tenMarks">
       <div class="fiveMarkQ">

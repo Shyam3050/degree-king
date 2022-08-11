@@ -4,49 +4,58 @@ const questionAnsList = [
     data: [
       {
         subject: "Computer",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Ans: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: ["Explain block-diagram of computer ?", "Explain different type of computers ?", "opreators in c ?" , "conditional statement in c ?"],
+        ques10Exp: ["Explain block-diagram of computer ? & block-diaram explain ?", "Explain different type of computers ? & type of computer?", "opreators in c ? &different type of opreator in c ? " , "conditional statement in c ? & Explain if-else in c ?"],
+        ques10Ans: ["Explain about it"],
+        ques5: ["flow chart in c ?", "data types in c? ", "break & continue statement in c ?", "looping statement in c ?", "Explain bitwise opreator"],
+        ques5Exp: ["flow of programm and according to that"],
+        ques5Ans: ["Explain about it"],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
-      {
+      {  
         subject: "Maths",
-        ques10: ["draw line", "explan", "pointers explain", "block-diagram"],
-        ques10Ans: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Exp: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
       {
         subject: "Physics",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Ans: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Exp: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
       {
         subject: "Chemistry",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Ans: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
       {
         subject: "English",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Ans: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Exp: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
-      }
+        startAt: "",
+      },
     ],
   },
   {
@@ -56,7 +65,9 @@ const questionAnsList = [
         subject: "Computer",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -65,7 +76,9 @@ const questionAnsList = [
         subject: "Maths",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -74,7 +87,9 @@ const questionAnsList = [
         subject: "Physics",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -82,8 +97,10 @@ const questionAnsList = [
       {
         subject: "Chemistry",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -91,21 +108,26 @@ const questionAnsList = [
       {
         subject: "English",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
-      }
+      },
     ],
-  },{
+  },
+  {
     sem: "3sem",
     data: [
       {
         subject: "Computer",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -114,7 +136,9 @@ const questionAnsList = [
         subject: "Maths",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -123,7 +147,9 @@ const questionAnsList = [
         subject: "Physics",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -131,8 +157,10 @@ const questionAnsList = [
       {
         subject: "Chemistry",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -140,21 +168,26 @@ const questionAnsList = [
       {
         subject: "English",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
-      }
+      },
     ],
-  },{
+  },
+  {
     sem: "4sem",
     data: [
       {
         subject: "Computer",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -163,7 +196,9 @@ const questionAnsList = [
         subject: "Maths",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -172,7 +207,9 @@ const questionAnsList = [
         subject: "Physics",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -180,8 +217,10 @@ const questionAnsList = [
       {
         subject: "Chemistry",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -189,21 +228,26 @@ const questionAnsList = [
       {
         subject: "English",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
-      }
+      },
     ],
-  },{
+  },
+  {
     sem: "5sem",
     data: [
       {
         subject: "Computer",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -212,7 +256,9 @@ const questionAnsList = [
         subject: "Maths",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -221,7 +267,9 @@ const questionAnsList = [
         subject: "Physics",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -229,8 +277,10 @@ const questionAnsList = [
       {
         subject: "Chemistry",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -238,21 +288,26 @@ const questionAnsList = [
       {
         subject: "English",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
-      }
+      },
     ],
-  },{
+  },
+  {
     sem: "6sem",
     data: [
       {
         subject: "Computer",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -261,7 +316,9 @@ const questionAnsList = [
         subject: "Maths",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -270,7 +327,9 @@ const questionAnsList = [
         subject: "Physics",
         ques10: [],
         ques10Exp: [],
+        ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -278,8 +337,10 @@ const questionAnsList = [
       {
         subject: "Chemistry",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
@@ -287,14 +348,16 @@ const questionAnsList = [
       {
         subject: "English",
         ques10: [],
+        ques10Exp: [],
         ques10Ans: [],
         ques5: [],
+        ques5Exp: [],
         ques5Ans: [],
         img: "",
         startAt: "",
-      }
+      },
     ],
-  }
+  },
 ];
 // for querySelector
 const getElement = (selector) => {
@@ -348,7 +411,11 @@ get.addEventListener("click", () => {
   );
   console.log(filteredArr);
 
-  if (filteredArr.length === 0 || filteredArr[0].ques10.length === 0 ||filteredArr[0].ques5.length === 0) {
+  if (
+    filteredArr.length === 0 ||
+    filteredArr[0].ques10.length === 0 ||
+    filteredArr[0].ques5.length === 0
+  ) {
     document.getElementById("qs").innerHTML = "";
     document.getElementById("questionHeader").innerHTML = "NO DATA Found";
   } else {
@@ -369,10 +436,10 @@ get.addEventListener("click", () => {
     </div>
     <div class="tenFiveMarkA">
       <p class="questionAns">
-        <span>Q:</span> <span class = "ques-text">xx</span>
+        <span>Q:</span> <span class = "ques-text">${filteredSubSem.ques10Exp[i]}</span>
       </p>
       <p class="ans">
-        <span>Ans:</span> <span class = "ans-text" >xxx</span>
+        <span>Ans:</span> <span class = "ans-text" >${filteredSubSem.ques10Ans[i]}</span>
       </p>
       <h6>RESOURCES: <span>PDF avilabale</span></h6>
       <div class="download-btns flex">
@@ -407,10 +474,10 @@ get.addEventListener("click", () => {
     </div>
     <div class="tenFiveMarkA">
       <p class="questionAns">
-        <span>Q:</span> <span class = "ques-text" > hello</span>
+        <span>Q:</span> <span class = "ques-text" > ${filteredSubSem.ques5Exp[i]}</span>
       </p>
       <p class="ans">
-        <span>Ans:</span> <span class = "ans-text" > hello</span>
+        <span>Ans:</span> <span class = "ans-text" >${filteredSubSem.ques5Ans[i]} </span>
       </p>
       <h6>RESOURCES: <span>PDF avilabale</span></h6>
       <div class="download-btns flex">

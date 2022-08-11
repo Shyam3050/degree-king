@@ -365,16 +365,6 @@ transition: 0.5s;
 margin: 1rem auto;
 max-width: 320px;
 }
-/* footer */
-footer{
-  background-color: var(--primary-1);
-}
-footer ul{
-  margin-inline: .8rem;
-}
-footer ul li a{
-  color: var(--grey-4);
-}
 .about{
   background-color: var(--blue);
   color: white;

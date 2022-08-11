@@ -13,7 +13,7 @@ const questionAnsList = [
       },
       {
         subject: "Maths",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
+        ques10: ["draw line", "explan", "pointers explain", "block-diagram"],
         ques10Ans: ["hello goood", "jdjd"],
         ques5: ["hello goood", "jdjd"],
         ques5Ans: ["hello goood", "jdjd"],
@@ -29,6 +29,24 @@ const questionAnsList = [
         img: "",
         startAt: "14:32",
       },
+      {
+        subject: "Chemistry",
+        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
+        ques10Ans: ["hello goood", "jdjd"],
+        ques5: ["hello goood", "jdjd"],
+        ques5Ans: ["hello goood", "jdjd"],
+        img: "",
+        startAt: "14:32",
+      },
+      {
+        subject: "English",
+        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
+        ques10Ans: ["hello goood", "jdjd"],
+        ques5: ["hello goood", "jdjd"],
+        ques5Ans: ["hello goood", "jdjd"],
+        img: "",
+        startAt: "14:32",
+      }
     ],
   },
   {
@@ -36,33 +54,247 @@ const questionAnsList = [
     data: [
       {
         subject: "Computer",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Exp: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
       {
         subject: "Maths",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Exp: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
       {
         subject: "Physics",
-        ques10: ["1d Array", "2D array", "pointers explain", "block-diagram"],
-        ques10Exp: ["hello goood", "jdjd"],
-        ques5: ["hello goood", "jdjd"],
-        ques5Ans: ["hello goood", "jdjd"],
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
         img: "",
-        startAt: "14:32",
+        startAt: "",
       },
+      {
+        subject: "Chemistry",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "English",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      }
     ],
-  },
+  },{
+    sem: "3sem",
+    data: [
+      {
+        subject: "Computer",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Maths",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Physics",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Chemistry",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "English",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      }
+    ],
+  },{
+    sem: "4sem",
+    data: [
+      {
+        subject: "Computer",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Maths",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Physics",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Chemistry",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "English",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      }
+    ],
+  },{
+    sem: "5sem",
+    data: [
+      {
+        subject: "Computer",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Maths",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Physics",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Chemistry",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "English",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      }
+    ],
+  },{
+    sem: "6sem",
+    data: [
+      {
+        subject: "Computer",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Maths",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Physics",
+        ques10: [],
+        ques10Exp: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "Chemistry",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      },
+      {
+        subject: "English",
+        ques10: [],
+        ques10Ans: [],
+        ques5: [],
+        ques5Ans: [],
+        img: "",
+        startAt: "",
+      }
+    ],
+  }
 ];
 // for querySelector
 const getElement = (selector) => {
@@ -114,8 +346,10 @@ get.addEventListener("click", () => {
   const filteredArr = questionAnsList[sem - 1].data.filter(
     (sub) => sub.subject === subject
   );
+  console.log(filteredArr);
 
-  if (filteredArr.length === 0) {
+  if (filteredArr.length === 0 || filteredArr[0].ques10.length === 0 ||filteredArr[0].ques5.length === 0) {
+    document.getElementById("qs").innerHTML = "";
     document.getElementById("questionHeader").innerHTML = "NO DATA Found";
   } else {
     const filteredSubSem = filteredArr[0];
@@ -138,7 +372,7 @@ get.addEventListener("click", () => {
         <span>Q:</span> <span class = "ques-text">xx</span>
       </p>
       <p class="ans">
-        <span>Ans:</span> <span class = "ans-text" >${filteredSubSem.ques10Ans[i]}</span>
+        <span>Ans:</span> <span class = "ans-text" >xxx</span>
       </p>
       <h6>RESOURCES: <span>PDF avilabale</span></h6>
       <div class="download-btns flex">
@@ -158,7 +392,7 @@ get.addEventListener("click", () => {
       `;
       document.getElementById("qs").innerHTML += tenMarkQ;
     }
-     // for 5 marks questions rendering
+    // for 5 marks questions rendering
     for (let i = 0; i < filteredSubSem.ques5.length; i++) {
       const fiveMarkQ = ` <div class="tenMarks">
       <div class="fiveMarkQ">
@@ -197,13 +431,14 @@ get.addEventListener("click", () => {
       document.getElementById("qs").innerHTML += fiveMarkQ;
     }
     plusBtn = getAllElement(".question-tag");
-    plusBtn.forEach(btn => {
-      btn.addEventListener("click",(e)=> {
-        const parent = e.currentTarget.parentElement.parentElement.parentElement;
-        parent.classList.toggle("show-text")
-        console.log(parent)
-      })
-    })
+    plusBtn.forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        const parent =
+          e.currentTarget.parentElement.parentElement.parentElement;
+        parent.classList.toggle("show-text");
+        console.log(parent);
+      });
+    });
   }
 });
 

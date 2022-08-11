@@ -68,21 +68,21 @@
     </header>
     <section class="filter">
       <select id="sem" class="select">
-        <option value="1sem">1sem</option>
-        <option value="2sem">2sem</option>
-        <option value="3sem">3sem</option>
-        <option value="4sem">4sem</option>
-        <option value="5sem">5sem</option>
-        <option value="6sem">6sem</option>
+        <option value="1">1sem</option>
+        <option value="2">2sem</option>
+        <option value="3">3sem</option>
+        <option value="4">4sem</option>
+        <option value="5">5sem</option>
+        <option value="6">6sem</option>
       </select>
       <select id="subject" class="select">
-        <option value="maths">Maths</option>
-        <option value="physics">Physics</option>
+        <option value="Maths">Maths</option>
+        <option value="Physics">Physics</option>
         <option value="Computer">Computer</option>
-        <option value="chemistry">Chemistry</option>
-        <option value="english">English</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="English">English</option>
       </select>
-      <button class="get">Get</button>
+      <button class="get" id="get">Get</button>
     </section>
     <section class="mark">
       <div class="tenMark">
@@ -95,84 +95,8 @@
       </div>
     </section>
     <section class="questions">
-      <h5>1 sem Math's Questions</h5>
-      <!-- ten marks start -->
-      <div class="tenMarks">
-        <div class="tenMarkQ">
-          <p class="question">Derive 1d array</p>
-          <div class="flex">
-            <img src="./images/five-star.png" alt="" class="star" />
-            <i class="fa fa-plus"></i>
-          </div>
-        </div>
-        <div class="tenMarkA">
-          <p class="questionAns">
-            <span>Q:</span> what is array ? Derive 1d array ?
-          </p>
-          <p class="ans">
-            <span>Ans:</span> First describe what is array & it’s syntax give an
-            Example then describe the 1d array give an Example of this also.
-          </p>
-          <h6>RESOURCES: <span>PDF avilabale</span></h6>
-          <div class="download-btns flex">
-            <button class="preview">Preview</button>
-            <button class="download">Download</button>
-          </div>
-          <h6>Watch Video <span>Start at: 14:23</span></h6>
-          <div class="solution-img">
-            <img
-              src="./images/thumbnail.png
-            "
-              alt="computers ap degree"
-            />
-          </div>
-        </div>
-        <div class="tenMarkQ">
-          <p class="question">Derive 1d array</p>
-          <div class="flex">
-            <img src="./images/five-star.png" alt="" class="star" />
-            <i class="fa fa-plus"></i>
-          </div>
-        </div>
-        <div class="tenMarkQ">
-          <p class="question">Derive 1d array</p>
-          <div class="flex">
-            <img src="./images/five-star.png" alt="" class="star" />
-            <i class="fa fa-plus"></i>
-          </div>
-        </div>
-      </div>
-      <!-- five marks start -->
-      <div class="fiveMarks">
-        <div class="fiveMarkQ">
-          <p>Structure of C ?</p>
-          <div class="flex">
-            <img src="./images/five-star.png" alt="" class="star" />
-            <i class="fa fa-plus"></i>
-          </div>
-        </div>
-      </div>
-      <div class="tenMarkA">
-        <p class="questionAns">
-          <span>Q:</span> what is array ? Derive 1d array ?
-        </p>
-        <p class="ans">
-          <span>Ans:</span> First describe what is array & it’s syntax give an
-          Example then describe the 1d array give an Example of this also.
-        </p>
-        <h6>RESOURCES: <span>PDF avilabale</span></h6>
-        <div class="download-btns flex">
-          <button class="preview">Preview</button>
-          <button class="download">Download</button>
-        </div>
-        <h6>Watch Video <span>Start at: 14:23</span></h6>
-        <div class="solution-img">
-          <img
-            src="./images/thumbnail.png
-          "
-            alt="computers ap degree"
-          />
-        </div>
+      <h5 id="questionHeader"></h5>
+      <div id="qs">
       </div>
     </section>
     <footer class="flex">

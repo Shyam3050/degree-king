@@ -144,6 +144,11 @@ img {
   margin-bottom: 1rem;
 }
 
+.visible{
+  display: block !important;
+  /* transition: 0.5s; */
+}
+
 /*
 =============== 
 Navbar
@@ -259,7 +264,7 @@ Navbar
   color: white;
   padding: 0.5rem 1.2rem;
   outline: none;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 .get:hover {
   background-color: var(--grey-2);
@@ -292,7 +297,7 @@ Navbar
   background-color: var(--green);
 }
 /* questions */
-.questions h5 {
+.questions #questionHeader {
   color: var(--blue);
 }
 .tenMarkQ,.fiveMarkQ {
@@ -316,39 +321,43 @@ margin-block: 4px;
     background-color: var(--green);
 }
 /* tenMarkAns */
-.tenMarkA {
+.tenFiveMarkA {
   background-color: var(--grey-4);
   margin-top: -1rem;
+  
 }
-.tenMarkA p{
+.tenFiveMarkA p{
   margin: .3rem;
 }
-.tenMarkA .questionAns span{
+.tenFiveMarkA .questionAns span{
   color: red;
 }
-.tenMarkA .ans{
+.tenFiveMarkA .ans{
   font-size: .9rem;
   color: #353536;
 }
-.tenMarkA .ans span{
+.tenFiveMarkA .ans span{
   color: var(--green);
   text-decoration: underline;
 }
-.tenMarkA h6 span{
+.tenFiveMarkA h6 span{
   color: var(--blue) ;
 }
-.download-btns button {
+.download-btns a {
 margin: 1rem 1rem;
 border: none;
 padding: .5rem 2rem;
 border-radius: 2rem;
 transition: 0.5s;
 }
-.download-btns button.download{
+.download-btns a.download{
   background-color: var(--pink);
   color: white;
 }
-.download-btns button:hover{
+.download-btns a.preview {
+  background-color: white
+}
+.download-btns a:hover{
   background-color: var(--green);
   color: white;
 }
@@ -374,4 +383,20 @@ footer ul li a{
 .about a{
   color: var(--yellow);
 
+}
+/* hide tenFiveMarkA */
+.tenFiveMarkA{
+  display: none;
+}
+.question-tag .fa-minus{
+  display: none;
+}
+.show-text .tenFiveMarkA{
+  display: block;
+}
+.show-text .fa-plus{
+  display: none;
+}
+.show-text .fa-minus{
+  display: inline;
 }

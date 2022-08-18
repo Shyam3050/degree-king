@@ -4,16 +4,32 @@ const questionAnsList = [
     data: [
       {
         subject: "Computer",
-        ques10: ["Explain block-diagram of computer ?", "Explain different type of computers ?", "opreators in c ?" , "conditional statement in c ?"],
-        ques10Exp: ["Explain block-diagram of computer ? & block-diaram explain ?", "Explain different type of computers ? & type of computer?", "opreators in c ? &different type of opreator in c ? " , "conditional statement in c ? & Explain if-else in c ?"],
+        ques10: [
+          "Explain block-diagram of computer ?",
+          "Explain different type of computers ?",
+          "opreators in c ?",
+          "conditional statement in c ?",
+        ],
+        ques10Exp: [
+          "Explain block-diagram of computer ? & block-diaram explain ?",
+          "Explain different type of computers ? & type of computer?",
+          "opreators in c ? &different type of opreator in c ? ",
+          "conditional statement in c ? & Explain if-else in c ?",
+        ],
         ques10Ans: ["Explain about it"],
-        ques5: ["flow chart in c ?", "data types in c? ", "break & continue statement in c ?", "looping statement in c ?", "Explain bitwise opreator"],
+        ques5: [
+          "flow chart in c ?",
+          "data types in c? ",
+          "break & continue statement in c ?",
+          "looping statement in c ?",
+          "Explain bitwise opreator",
+        ],
         ques5Exp: ["flow of programm and according to that"],
         ques5Ans: ["Explain about it"],
         img: "",
         startAt: "",
       },
-      {  
+      {
         subject: "Maths",
         ques10: [],
         ques10Exp: [],
@@ -444,7 +460,7 @@ get.addEventListener("click", () => {
       <h6>RESOURCES: <span>PDF avilabale</span></h6>
       <div class="download-btns flex">
         <a class="preview">Preview</a>
-        <a class="download">Download</a>
+        <a class="download"href="../asyncVssync_compressed.pdf">Download</a>
       </div>
       <h6>Watch Video Start at: <span class = "youtube-start">14:23</span></h6>
       <div class="solution-img">

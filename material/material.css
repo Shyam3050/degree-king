@@ -219,23 +219,23 @@ Navbar
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background: rgb(0, 0, 0);
+  /* background: rgb(92, 92, 92); */
   transition: var(--transition);
 }
 .nav-link {
   text-align: center;
   padding: 1rem 0;
   font-size: 1.25rem;
-  color: var(--grey-3);
-  border-bottom: 1px solid var(--grey-2);
+  color: black;
+  border-top: 1px solid var(--grey-2);
   transition: var(--transition);
   text-decoration: none;
 }
 .nav-link.high-light {
-  color: var(--yellow);
+  color: var(--pink);
 }
 .nav-link:hover {
-  color: var(--yellow);
+  color: var(--pink);
 }
 .show-links {
   height: 21.25rem;

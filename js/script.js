@@ -50,3 +50,15 @@ check.forEach((check, index) => {
 window.addEventListener("load", () => {
   loader_wrapper.remove();
 });
+
+// subject event
+
+// const subEvt = getAllElement(".subEvt");
+// subEvt.forEach((btn)=> btn.addEventListener("click", function(e) {
+//   console.log(e.currentTarget.textContent)
+//   const c = e.currentTarget.parentElement.parentElement.parentElement.parentElement;
+//   const m = c.querySelector(".numSem");
+//   console.log(m.textContent)
+// }))
+var xxx = 'xxx'
+export default xxx;

@@ -1,3 +1,5 @@
+import xxx from "../js/script.js";
+console.log(xxx)
 const questionAnsList = [
   {
     sem: "1sem",

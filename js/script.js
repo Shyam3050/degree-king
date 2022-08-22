@@ -52,13 +52,18 @@ window.addEventListener("load", () => {
 });
 
 // subject event
+const subEvtObj = {
+  c: null,
+  m: null,
+}
+const subEvt = getAllElement(".subEvt");
+subEvt.forEach((btn)=> btn.addEventListener("click", function(e) {
+   const c = e.currentTarget.parentElement.parentElement.parentElement.parentElement;
+   const m = c.querySelector(".numSem").textContent;
+   subEvtObj.c = e.currentTarget.textContent;
+   subEvtObj.m = m;
+   console.log(subEvtObj)
+   
+}))
+export default subEvtObj;
 
-// const subEvt = getAllElement(".subEvt");
-// subEvt.forEach((btn)=> btn.addEventListener("click", function(e) {
-//   console.log(e.currentTarget.textContent)
-//   const c = e.currentTarget.parentElement.parentElement.parentElement.parentElement;
-//   const m = c.querySelector(".numSem");
-//   console.log(m.textContent)
-// }))
-var xxx = 'xxx'
-export default xxx;

@@ -1,5 +1,5 @@
-import xxx from "../js/script.js";
-console.log(xxx)
+import subEvtObj from "../js/script.js";
+
 const questionAnsList = [
   {
     sem: "1sem",
@@ -428,6 +428,7 @@ get.addEventListener("click", () => {
     (sub) => sub.subject === subject
   );
   console.log(filteredArr);
+  console.log(subEvtObj)
 
   if (
     filteredArr.length === 0 ||
@@ -522,9 +523,9 @@ get.addEventListener("click", () => {
           e.currentTarget.parentElement.parentElement.parentElement;
         parent.classList.toggle("show-text");
         console.log(parent);
+        
       });
     });
   }
 });
-
 // show btn

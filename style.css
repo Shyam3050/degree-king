@@ -24,6 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #a7a6a6;
 }
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
 html {
@@ -56,11 +57,10 @@ html {
   --fixed-width: 600px;
 }
 body {
-  background: var(--backgroundColor);
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
-  color: var(--white);
+  /* color: var(--white); */
 }
 h1,
 h2,
@@ -125,7 +125,7 @@ img {
   height: 100%;
 }
 section > h2 {
-  color: var(--grey-4);
+  color: var(--primary-2);
   border-bottom: 1px solid var(--yellow);
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -169,7 +169,8 @@ Navbar
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--grey-1);
+  background-color: white;
+  box-shadow: 0 7px 20px var(--grey-4);
   z-index: 9;
 }
 .nav-center {
@@ -181,16 +182,15 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 .nav-header h2 {
+  font-family: "Caveat", cursive;
   font-size: 2rem;
-  color: var(--pink);
+  color: #0056d2;
   font-weight: 600;
-  
 }
 .nav-header h2 span {
-  color: var(--sky);
+  color: #053f8f;
   letter-spacing: 5px;
 }
 
@@ -208,7 +208,7 @@ Navbar
   display: block;
   height: 4px;
   width: 100%;
-  background-color: var(--white);
+  background-color: black;
   transition: 0.5s;
   margin-bottom: 6px;
 }
@@ -227,22 +227,21 @@ Navbar
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background: var(--grey-1);
   transition: var(--transition);
 }
 .nav-link {
   text-align: center;
   padding: 1rem 0;
   font-size: 1.25rem;
-  color: var(--grey-3);
+  color: var(--primary-2);
   border-bottom: 1px solid var(--grey-2);
   transition: var(--transition);
 }
 .nav-link.high-light {
-  color: var(--yellow);
+  color: var(--pink);
 }
 .nav-link:hover {
-  color: var(--yellow);
+  color: var(--grey-1);
 }
 .show-links {
   height: 21.25rem;
@@ -263,8 +262,9 @@ Navbar
 }
 .hero-text h1 {
   font-weight: 600;
-  font-size: 4rem;
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--grey-2);
 }
 .hero-text h1 span {
   display: block;
@@ -272,7 +272,7 @@ Navbar
   font-size: 2.5rem;
 }
 .hero-text h5 {
-  color: var(--yellow);
+  color: var(--primary-1);
   margin-bottom: 2rem;
 }
 .hero-img {
@@ -292,10 +292,10 @@ Navbar
 /* about  */
 
 .about-text p {
-  color: var(--grey-3);
+  color: var(--grey-2);
 }
 .about-text p span {
-  color: var(--grey-4);
+  color: black;
 }
 .about-img {
   width: 80vw;
@@ -304,14 +304,15 @@ Navbar
 }
 .updates {
   margin-top: 2rem;
-  padding: 2rem;
-  color: var(--grey-4);
+  padding-inline: 2rem;
+  color: black;
   border: 1px solid var(--grey-2);
 }
 .updates h5 {
   background-color: var(--red);
+  color: white;
   padding: 0.5rem;
-  margin-bottom: 4rem;
+  margin-left: -2rem;
 }
 /* sem */
 .sem-container {
@@ -415,14 +416,13 @@ Navbar
 }
 /* footrer */
 footer {
-  background-color: var(--grey-1);
+  background-color: var(--primary-1);
   padding: 0.25rem;
   text-align: center;
   margin-top: 3rem;
-  color: var(--grey-3);
+  color: white;
 }
 footer a {
-  color: var(--grey-4);
   text-decoration: underline;
   letter-spacing: 2px;
 }

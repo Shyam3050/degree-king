@@ -66,4 +66,3 @@ subEvt.forEach((btn)=> btn.addEventListener("click", function(e) {
    
 }))
 export default subEvtObj;
-

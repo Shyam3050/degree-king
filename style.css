@@ -438,7 +438,30 @@ footer {
 .footer-social-icon a .bi-linkedin{
   color: #448cef;
 }
+.footer-social-icon a .bi-github{
+  color: black;
+}
+.footer-social-icon a .bi-twitter{
+  color: rgb(30, 184, 245);
+}
 footer a {
   text-decoration: underline;
   letter-spacing: 2px;
+}
+.ans-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.96);
+  z-index: 99;
+  overflow-y: scroll;
+}
+.ans-modal p{
+  width: 100%;
+  background-color: green;
+}
+.hidden{
+  display: none;
 }

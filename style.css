@@ -404,7 +404,7 @@ Navbar
 .sem-container .subject .sub-cross .cross {
   display: block;
   cursor: pointer;
-  background-color: var(--grey-1);
+  background-color: var(--red);
   width: 80%;
   height: 4px;
 }

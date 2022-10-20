@@ -475,11 +475,12 @@ footer a {
   right: 1rem;
   bottom: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   height: 60px;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  border-top: 1px solid black;
 }
 .modal-bottom-close{
   cursor: pointer;
@@ -495,6 +496,12 @@ footer a {
 }
 .ans-modal-main-content{
     margin-top: 2.5rem;
+}
+.whatsapp_group{
+  width: 120px;
+  border-radius: 30px;
+  background-color: rgb(216, 252, 216);
+  
 }
 .hidden{
   display: none;

@@ -1,3 +1,35 @@
+const DATA = [
+  {
+    id: "jfhgbvnscs",
+    sem: "1",
+    sem_word: "one",
+  },
+  {
+    id: "ioytrhndcv",
+    sem: "2",
+    sem_word: "two",
+  },
+  {
+    id: "loimnbhse",
+    sem: "3",
+    sem_word: "three",
+  },
+  {
+    id: "derfnhjyk",
+    sem: "4",
+    sem_word: "four",
+  },
+  {
+    id: "erolkhuknc",
+    sem: "5",
+    sem_word: "five",
+  },
+  {
+    id: "tyunjkiond",
+    sem: "6",
+    sem_word: "six",
+  },
+];
 // for querySelector
 const getElement = (selector) => {
   const element = document.querySelector(selector);
@@ -28,6 +60,61 @@ nav_btn.addEventListener("click", () => {
   links.classList.toggle("show-links");
   nav_btn.classList.toggle("active");
 });
+// after load window
+
+window.addEventListener("load", () => {
+  loader_wrapper.remove();
+});
+
+// render semester grid
+const semContainer = document.getElementById("sem_container");
+//
+function semsRender() {
+  return (semContainer.innerHTML = DATA.map((element) => {
+    const { id, sem, sem_word } = element;
+    return `
+   <div class="sem-${sem_word}" id = ${id}>
+  <div class="sem-banner">
+    <h2 class="numSem">${sem}</h2>
+  </div>
+  <h2>sem</h2>
+  <p>All maths, computer, commerce, zoology etc.</p>
+  <button class="check btn">check</button>
+  <div class="subject active">
+    <div class="sub-cross">
+      <span class="cross one"></span>
+      <span class="cross two"></span>
+    </div>
+    <ul>
+      <li class="sem-subjects"><a href="#sem" class="subEvt">Maths</a></li>
+      <li class="sem-subjects">
+        <a href="#sem" class="subEvt">Computer</a>
+      </li>
+      <li class="sem-subjects">
+        <a href="#sem" class="subEvt">physics</a>
+      </li>
+      <li class="sem-subjects">
+        <a href="#sem" class="subEvt"
+          >chemistry</a
+        >
+      </li>
+      <li class="sem-subjects">
+        <a href="#sem" class="subEvt">English</a>
+      </li>
+      <li class="sem-subjects">
+        <a href="#sem" class="subEvt">Telugu</a>
+      </li>
+      <li class="sem-subjects">
+        <a href="#sem" class="subEvt">Oriya</a>
+      </li>
+    </ul>
+  </div>
+</div>  
+  `;
+  }).join(""));
+}
+semsRender();
+
 // cross close for semester
 const cross = getAllElement(".sub-cross");
 const check = getAllElement(".check");
@@ -45,24 +132,13 @@ check.forEach((check, index) => {
   );
 });
 
-// after load window
-
-window.addEventListener("load", () => {
-  loader_wrapper.remove();
-});
-
-// subject event
-const subEvtObj = {
-  c: null,
-  m: null,
-}
-const subEvt = getAllElement(".subEvt");
-subEvt.forEach((btn)=> btn.addEventListener("click", function(e) {
-   const c = e.currentTarget.parentElement.parentElement.parentElement.parentElement;
-   const m = c.querySelector(".numSem").textContent;
-   subEvtObj.c = e.currentTarget.textContent;
-   subEvtObj.m = m;
-   console.log(subEvtObj)
+const semSubjects = getAllElement('.sem-subjects');
+const ans_modal = document.getElementById("ans_modal");
+for(let i = 0; i< semSubjects.length; i++){
+  semSubjects[i].addEventListener("click", (e)=>{
+   const crossElement =  e.currentTarget.parentElement.parentElement;
+   ans_modal.classList.toggle('hidden')
+   crossElement.classList.toggle('active');
    
-}))
-export default subEvtObj;
+  })
+}

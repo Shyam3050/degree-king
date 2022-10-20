@@ -389,6 +389,7 @@ Navbar
   font-size: 1.5rem;
 }
 .sem-container .subject .sub-cross {
+  cursor:  pointer;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -456,11 +457,44 @@ footer a {
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.96);
   z-index: 99;
+  padding: 1rem;
   overflow-y: scroll;
 }
-.ans-modal p{
+.top-cross-icon{
+  position: fixed;
+  top: 0;
   width: 100%;
-  background-color: green;
+  background-color:rgb(255, 255, 255);
+}
+.bi-x-square-fill{
+  color: red;
+  font-size: 2rem;
+}
+.bottom-close-btn{
+  position: fixed;
+  right: 1rem;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.modal-bottom-close{
+  cursor: pointer;
+  padding: .5rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+}
+.modal-bottom-close:hover{
+  background-color: rgb(19, 169, 16);
+}
+.ans-modal-main-content{
+    margin-top: 2.5rem;
 }
 .hidden{
   display: none;

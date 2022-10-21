@@ -32,7 +32,6 @@
     <div class="loader-wrapper">
       <div class="loader">
         <img src="./images/preloader.gif" alt="prepreloader.gif" />
-        <h4>Loading...</h4>
       </div>
     </div>
     <!-- loader end -->
@@ -155,9 +154,8 @@
       <div class="top-cross-icon">
         <i class="bi bi-x-square-fill" onclick="ans(ans_modal)"></i>
       </div>
-      <div class="ans-modal-main-content">
+      <div class="ans-modal-main-content"  id="ans_modal_main_content">
         <!-- dynamically rendered -->
-        <p>Try Again</p>
       </div>
       <div class="bottom-close-btn">
        <div class="whatsapp_group">
@@ -170,17 +168,9 @@
         </button>
       </div>
     </div>
+    <!-- data js file -->
+    <script src="./js/DATA.js"></script>
     <script src="./js/script.js"></script>
-    <script>
-      function mnm(item) {
-        item.classList.add("hidden");
-      }
-      function ans(item) {
-        item.classList.add("hidden");
-      }
-      function checking() {
-        console.log("checking");
-      }
-    </script>
+   
   </body>
 </html>

@@ -1,35 +1,4 @@
-const DATA = [
-  {
-    id: "jfhgbvnscs",
-    sem: "1",
-    sem_word: "one",
-  },
-  {
-    id: "ioytrhndcv",
-    sem: "2",
-    sem_word: "two",
-  },
-  {
-    id: "loimnbhse",
-    sem: "3",
-    sem_word: "three",
-  },
-  {
-    id: "derfnhjyk",
-    sem: "4",
-    sem_word: "four",
-  },
-  {
-    id: "erolkhuknc",
-    sem: "5",
-    sem_word: "five",
-  },
-  {
-    id: "tyunjkiond",
-    sem: "6",
-    sem_word: "six",
-  },
-];
+
 // for querySelector
 const getElement = (selector) => {
   const element = document.querySelector(selector);
@@ -80,31 +49,32 @@ function semsRender() {
   <h2>sem</h2>
   <p>All maths, computer, commerce, zoology etc.</p>
   <button class="check btn">check</button>
-  <div class="subject active">
+  <div class="subject active" data-id = ${id}>
     <div class="sub-cross">
       <span class="cross one"></span>
       <span class="cross two"></span>
     </div>
     <ul>
-      <li class="sem-subjects"><a href="#sem" class="subEvt">Maths</a></li>
-      <li class="sem-subjects">
+      <li class="sem-subjects" data-subject = "maths">
+      <a href="#sem" class="subEvt" data-subject = "maths">Maths</a></li>
+      <li class="sem-subjects" data-subject = "computers">
         <a href="#sem" class="subEvt">Computer</a>
       </li>
-      <li class="sem-subjects">
+      <li class="sem-subjects" data-subject = "physics">
         <a href="#sem" class="subEvt">physics</a>
       </li>
-      <li class="sem-subjects">
+      <li class="sem-subjects" data-subject = "chemistry">
         <a href="#sem" class="subEvt"
           >chemistry</a
         >
       </li>
-      <li class="sem-subjects">
-        <a href="#sem" class="subEvt">English</a>
+      <li class="sem-subjects" data-subject = "English">
+        <a href="#sem" class="subEvt" >English</a>
       </li>
-      <li class="sem-subjects">
+      <li class="sem-subjects" data-subject = "telugu">
         <a href="#sem" class="subEvt">Telugu</a>
       </li>
-      <li class="sem-subjects">
+      <li class="sem-subjects" data-subject = "oriya">
         <a href="#sem" class="subEvt">Oriya</a>
       </li>
     </ul>
@@ -132,13 +102,27 @@ check.forEach((check, index) => {
   );
 });
 
-const semSubjects = getAllElement('.sem-subjects');
+const semSubjects = getAllElement(".sem-subjects");
 const ans_modal = document.getElementById("ans_modal");
-for(let i = 0; i< semSubjects.length; i++){
-  semSubjects[i].addEventListener("click", (e)=>{
-   const crossElement =  e.currentTarget.parentElement.parentElement;
-   ans_modal.classList.toggle('hidden')
-   crossElement.classList.toggle('active');
-   
-  })
+// ans_modal_main_content rendering
+let ans_modal_main_content = document.getElementById("ans_modal_main_content");
+
+for (let i = 0; i < semSubjects.length; i++) {
+  semSubjects[i].addEventListener("click", (e) => {
+    const crossElement = e.currentTarget.parentElement.parentElement;
+    const subjectName = e.currentTarget.dataset.subject;
+    ans_modal.classList.toggle("hidden");
+    crossElement.classList.toggle("active");
+    const id = crossElement.dataset.id;
+    const item = DATA.find((element) => element.id === id);
+    if(item[subjectName]){
+     ans_modal_main_content.innerHTML = item[subjectName].map(ques =>{
+      const {title, link} = ques;
+      return `<p class = "ans-pdfs">${title}  <a href=${link} target = "_blank">Download</a></p>`
+     }).join('')
+    } else{
+      ans_modal_main_content.innerHTML = `<p class = 'ans-pdfs'> Item Not Found</p>
+      <p class = 'ans-pdfs'> Comeing Soon......</p>`;
+    }
+  });
 }

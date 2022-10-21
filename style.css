@@ -140,7 +140,7 @@ section > h2 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(72, 67, 67);
+  background-color: rgb(255 255 255 / 81%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,7 +389,7 @@ Navbar
   font-size: 1.5rem;
 }
 .sem-container .subject .sub-cross {
-  cursor:  pointer;
+  cursor: pointer;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -423,33 +423,33 @@ footer {
   margin-top: 3rem;
   color: white;
 }
-.footer-social-icon{
+.footer-social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   font-size: 1.5rem;
 }
-.footer-social-icon a .bi-instagram{
+.footer-social-icon a .bi-instagram {
   color: var(--pink);
 }
-.footer-social-icon a .bi-whatsapp{
+.footer-social-icon a .bi-whatsapp {
   color: rgb(46, 251, 46);
 }
-.footer-social-icon a .bi-linkedin{
+.footer-social-icon a .bi-linkedin {
   color: #448cef;
 }
-.footer-social-icon a .bi-github{
+.footer-social-icon a .bi-github {
   color: black;
 }
-.footer-social-icon a .bi-twitter{
+.footer-social-icon a .bi-twitter {
   color: rgb(30, 184, 245);
 }
 footer a {
   text-decoration: underline;
   letter-spacing: 2px;
 }
-.ans-modal{
+.ans-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -460,17 +460,18 @@ footer a {
   padding: 1rem;
   overflow-y: scroll;
 }
-.top-cross-icon{
+.top-cross-icon {
+  cursor: pointer;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
-.bi-x-square-fill{
+.bi-x-square-fill {
   color: red;
   font-size: 2rem;
 }
-.bottom-close-btn{
+.bottom-close-btn {
   position: fixed;
   right: 1rem;
   bottom: 0;
@@ -482,27 +483,40 @@ footer a {
   background-color: rgb(255, 255, 255);
   border-top: 1px solid black;
 }
-.modal-bottom-close{
+.modal-bottom-close {
   cursor: pointer;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 20px;
   background-color: red;
   color: white;
   font-size: 1.2rem;
 }
-.modal-bottom-close:hover{
+.modal-bottom-close:hover {
   background-color: rgb(19, 169, 16);
 }
-.ans-modal-main-content{
-    margin-top: 2.5rem;
+.ans-modal-main-content {
+  margin-top: 3.5rem;
 }
-.whatsapp_group{
+.whatsapp_group {
   width: 120px;
   border-radius: 30px;
   background-color: rgb(216, 252, 216);
-  
 }
-.hidden{
+.hidden {
   display: none;
+}
+.ans-pdfs{
+  font-size: 1.2rem;
+  border: 1px solid var(--grey-4);
+  padding: .25rem;
+}
+.ans-pdfs a{
+  color: green;
+  text-decoration: underline;
+  font-size: 1rem;
+  background-color: rgb(212, 255, 20);
+}
+.ans-pdfs a:hover{
+  color: rgb(0, 0, 0);
 }

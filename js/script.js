@@ -65,7 +65,12 @@ function semsRender() {
       </li>
       <li class="sem-subjects" data-subject = "chemistry">
         <a href="#sem" class="subEvt"
-          >chemistry</a
+          >Chemistry</a
+        >
+      </li>
+      <li class="sem-subjects" data-subject = "skills">
+        <a href="#sem" class="subEvt"
+          >Skills & Others</a
         >
       </li>
       <li class="sem-subjects" data-subject = "English">
@@ -121,8 +126,9 @@ for (let i = 0; i < semSubjects.length; i++) {
       return `<p class = "ans-pdfs">${title}  <a href=${link} target = "_blank">Download</a></p>`
      }).join('')
     } else{
-      ans_modal_main_content.innerHTML = `<p class = 'ans-pdfs'> Item Not Found</p>
-      <p class = 'ans-pdfs'> Comeing Soon......</p>`;
+      ans_modal_main_content.innerHTML = `<p class = 'ans-pdfs'> Not Found</p>
+      <p class = 'ans-pdfs'> Comeing Soon......</p>
+      <p> For updates join Whatsapp group </p>`;
     }
   });
 }

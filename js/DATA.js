@@ -19,6 +19,12 @@ const DATA = [
         title: "Solar Energy Imp Questions List",
         link: "./pdfs/2nd_sem_solar-energy.pdf"
       }
+    ],
+    computers:[
+      {
+        title: "Computer(Data Structure) Imp Questions List",
+        link: "./pdfs/2nd_sem_Computers_questions.pdf"
+      }
     ]
   },
   {

@@ -45,7 +45,7 @@ const DATA = [
       },
       {
         title: "dimiri Phullo HandWritten Notes",
-        link: "./pdfs/dimiri-phulloo-Handwritten-notes",
+        link: "./pdfs/dimiri-phulloo-Handwritten-notes.pdf",
       },
       {
         title: "dimiri phullo Guide_notes",

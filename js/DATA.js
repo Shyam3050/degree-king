@@ -31,28 +31,30 @@ const DATA = [
         title: "2nd-sem Odiya model-paper",
         link: "./pdfs/2nd-sem-odiya-model-paper.pdf",
       },
-      { title: 'Odiya Grammer and notes pdf',
-        link: "odia-grammer-and-story-notes.pdf",
+      {
+        title: "Odiya Grammer and notes pdf",
+        link: "./pdfs/odia-grammer-and-story-notes.pdf",
       },
       {
         title: "Upoharo-Guide-notes",
-        link: "upoharo-notes.pdf",
+        link: "./pdfs/upoharo-notes.pdf",
       },
       {
-        title: 'laxmiro obhisapo Notes',
-        link: "laxmiro-obhisapo.pdf",
+        title: "laxmiro obhisapo Notes",
+        link: "./pdfs/laxmiro-obhisapo.pdf",
       },
       {
-        title: 'dimiri Phullo HandWritten Notes',
-        link: "dimiri-phulloo-Handwritten-notes",
+        title: "dimiri Phullo HandWritten Notes",
+        link: "./pdfs/dimiri-phulloo-Handwritten-notes",
       },
       {
-        title: 'dimiri phullo Guide_notes',
-        link: 'dimiri-phullo-text-book.pdf'
-      },{
-        title: 'bono-nasika-Guide-notes',
-        link: 'bono-nasika-Story.pdf'
-      }
+        title: "dimiri phullo Guide_notes",
+        link: "./pdfs/dimiri-phullo-text-book.pdf",
+      },
+      {
+        title: "bono-nasika-Guide-notes",
+        link: "./pdfs/bono-nasika-Story.pdf",
+      },
     ],
   },
   {

@@ -26,7 +26,7 @@ const DATA = [
         link: "./pdfs/2nd_sem_Computers_questions.pdf",
       },
     ],
-    odiya: [
+    oriya: [
       {
         title: "2nd-sem Odiya model-paper",
         link: "./pdfs/2nd-sem-odiya-model-paper.pdf",

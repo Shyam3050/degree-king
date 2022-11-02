@@ -32,6 +32,10 @@ const DATA = [
         link: "./pdfs/2nd-sem-odiya-model-paper.pdf",
       },
       {
+        title: "2022_2nd-sem Odiya Exam-paper",
+        link: "./pdfs/odiya_2022_Exam-paper.pdf",
+      },
+      {
         title: "Odiya Grammer and notes pdf",
         link: "./pdfs/odia-grammer-and-story-notes.pdf",
       },
@@ -56,6 +60,12 @@ const DATA = [
         link: "./pdfs/bono-nasika-Story.pdf",
       },
     ],
+    english: [
+      {
+        title: '2022_English_Model_paper_2nd-sem',
+        link: './pdfs/2nd_sem_2022_English paper.pdf'
+      }
+    ]
   },
   {
     id: "loimnbhse",

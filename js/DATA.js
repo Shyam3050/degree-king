@@ -76,6 +76,12 @@ const DATA = [
     id: "derfnhjyk",
     sem: "4",
     sem_word: "four",
+    physics: [
+      {
+        title: "Modern Physics Important questions List",
+        link: "./pdfs/4th_sem_Modern_physics_questions.pdf",
+      },
+    ],
   },
   {
     id: "erolkhuknc",

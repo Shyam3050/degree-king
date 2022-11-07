@@ -19,14 +19,26 @@ const DATA = [
         title: "Solar Energy Imp Questions List",
         link: "./pdfs/2nd_sem_solar-energy.pdf",
       },
+      {
+        title: "ICT 2022 Exam paper",
+        link: "./pdfs/2nd-sem-ict.pdf",
+      },
     ],
     computers: [
+      {
+        title: "Computer(Data Structure) 2022 Exam paper",
+        link: "./pdfs/2nd_sem_2022_computer_Exam_paper.pdf",
+      },
       {
         title: "Computer(Data Structure) Imp Questions List",
         link: "./pdfs/2nd_sem_Computers_questions.pdf",
       },
     ],
     oriya: [
+      {
+        title: "2nd-sem Odiya 2022 Exam-paper",
+        link: "./pdfs/2nd_sem_odiya_exam.pdf",
+      },
       {
         title: "2nd-sem Odiya model-paper",
         link: "./pdfs/2nd-sem-odiya-model-paper.pdf",
@@ -62,10 +74,14 @@ const DATA = [
     ],
     english: [
       {
-        title: '2022_English_Model_paper_2nd-sem',
-        link: './pdfs/2nd_sem_2022_English paper.pdf'
-      }
-    ]
+        title: "2nd-sem_2022_English_Exam_paper",
+        link: "./pdfs/2nd_sem_2022_english-Exam.pdf",
+      },
+      {
+        title: "2022_English_Model_paper_2nd-sem",
+        link: "./pdfs/2nd_sem_2022_English paper.pdf",
+      },
+    ],
   },
   {
     id: "loimnbhse",

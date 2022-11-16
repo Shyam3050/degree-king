@@ -20,6 +20,10 @@ const DATA = [
         link: "./pdfs/2nd_sem_solar-energy.pdf",
       },
       {
+        title: "Solar Energy Q: Write about pyro heliometer and it's Working?",
+        link: "./pdfs/2nd_sem_solar-energy-pyro_heliometer.pdf",
+      },
+      {
         title: "ICT 2022 Exam paper",
         link: "./pdfs/2nd-sem-ict.pdf",
       },

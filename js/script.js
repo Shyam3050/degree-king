@@ -1,4 +1,3 @@
-
 // for querySelector
 const getElement = (selector) => {
   const element = document.querySelector(selector);
@@ -120,15 +119,34 @@ for (let i = 0; i < semSubjects.length; i++) {
     crossElement.classList.toggle("active");
     const id = crossElement.dataset.id;
     const item = DATA.find((element) => element.id === id);
-    if(item[subjectName]){
-     ans_modal_main_content.innerHTML = item[subjectName].map(ques =>{
-      const {title, link} = ques;
-      return `<p class = "ans-pdfs">${title}  <a href=${link} target = "_blank">Download</a></p>`
-     }).join('')
-    } else{
+    if (item[subjectName]) {
+      ans_modal_main_content.innerHTML = item[subjectName]
+        .map((ques) => {
+          const { title, link } = ques;
+          return `<p class = "ans-pdfs">${title}  <a href=${link} target = "_blank">Download</a></p>`;
+        })
+        .join("");
+    } else {
       ans_modal_main_content.innerHTML = `<p class = 'ans-pdfs'> Not Found</p>
       <p class = 'ans-pdfs'> Comeing Soon......</p>
       <p> For updates join Whatsapp group </p>`;
     }
   });
 }
+
+// render updates_pdf marque
+const updates_pdf_data = [
+  "2nd sem Physics imp question list Added check it out",
+  "2nd sem Solar Energy imp question list added check it",
+  "2nd Computers imp question list",
+  "2nd SEM ODIAY NOTES AND pdf model papers UPDATED checkit out",
+  "4th_sem_Modern_physics_questions added check it out",
+  "2022 2nd sem Examination paper added check it Out",
+  "2nd sem Solar Energy Q: Write about pyro heliometer and it's working",
+  '2nd sem solar Energy 2022 Exam Paper updated check it',
+  "2nd sem Dairy technology 2022 Exam paper updated check it"
+];
+const updates_pdf = document.getElementById("updates_pdf");
+updates_pdf.innerHTML = updates_pdf_data
+  .map((item) => `<li>${item}</li>`)
+  .join("");

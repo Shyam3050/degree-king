@@ -24,6 +24,14 @@ const DATA = [
         link: "./pdfs/2nd_sem_solar-energy-pyro_heliometer.pdf",
       },
       {
+        title: "Solar Energy 2022 Exam Paper",
+        link: "./pdfs/2nd_sem_solar-energy_2022_modal_paper.pdf",
+      },
+      {
+        title: "Dairy Technology 2022 Exam Paper",
+        link: "./pdfs/2nd_sem_dairy_2022_modal_paper.pdf",
+      },
+      {
         title: "ICT 2022 Exam paper",
         link: "./pdfs/2nd-sem-ict.pdf",
       },

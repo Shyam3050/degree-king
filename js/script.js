@@ -72,7 +72,7 @@ function semsRender() {
           >Skills & Others</a
         >
       </li>
-      <li class="sem-subjects" data-subject = "English">
+      <li class="sem-subjects" data-subject = "english">
         <a href="#sem" class="subEvt" >English</a>
       </li>
       <li class="sem-subjects" data-subject = "telugu">
@@ -144,7 +144,8 @@ const updates_pdf_data = [
   "2022 2nd sem Examination paper added check it Out",
   "2nd sem Solar Energy Q: Write about pyro heliometer and it's working",
   '2nd sem solar Energy 2022 Exam Paper updated check it',
-  "2nd sem Dairy technology 2022 Exam paper updated check it"
+  "2nd sem Dairy technology 2022 Exam paper updated check it",
+  "1sem 2022 June Exam Papers UPdated"
 ];
 const updates_pdf = document.getElementById("updates_pdf");
 updates_pdf.innerHTML = updates_pdf_data

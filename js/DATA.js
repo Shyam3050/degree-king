@@ -3,6 +3,46 @@ const DATA = [
     id: "jfhgbvnscs",
     sem: "1",
     sem_word: "one",
+    physics: [
+      {
+        title: "1sem 2022 physics Exam Paper",
+        link: "./pdfs/1sem/exam_paper/1_sem_physics_2022_Exam_paper.pdf",
+      },
+    ],
+    computers: [
+      {
+        title: "1sem 2022 computers Exam paper",
+        link: "./pdfs/1sem/exam_paper/1_sem_computers_2022_Exam_paper.pdf",
+      },
+    ],
+    skills: [
+      {
+        title: "1sem 2022 Human Values Exam paper",
+        link: "./pdfs/1sem/exam_paper/1_sem_Humanvalue_2022_Exam_paper.pdf",
+      },
+      {
+        title: "1sem 2022 Electrical Appliation Exam paper",
+        link: "./pdfs/1sem/exam_paper/1_sem_electrical_appliation_2022_Exam_paper.pdf",
+      },
+    ],
+    english: [
+      {
+        title: "1sem 2022 English Exam paper",
+        link: "./pdfs/1sem/exam_paper/1_sem_english_2022_Exam_paper.pdf"
+      }
+    ],
+    maths: [
+      {
+        title: "1sem 2022 Maths Exam paper",
+        link: "./pdfs/1sem/exam_paper/1_sem_maths_2022_Exam_paper.pdf"
+      }
+    ],
+    telugu: [
+      {
+        title: "1sem 2022 Telugu Exam paper",
+        link:"./pdfs/1sem/exam_paper/1_sem_telugu_2022_Exam_paper.pdf"
+      }
+    ]
   },
   {
     id: "ioytrhndcv",
@@ -91,7 +131,7 @@ const DATA = [
       },
       {
         title: "2022_English_Model_paper_2nd-sem",
-        link: "./pdfs/2nd_sem_2022_English paper.pdf",
+        link: "./pdfs/2nd_sem_2022_English_paper.pdf",
       },
     ],
   },

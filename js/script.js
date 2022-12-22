@@ -145,7 +145,8 @@ const updates_pdf_data = [
   "2nd sem Solar Energy Q: Write about pyro heliometer and it's working",
   '2nd sem solar Energy 2022 Exam Paper updated check it',
   "2nd sem Dairy technology 2022 Exam paper updated check it",
-  "1sem 2022 June Exam Papers UPdated"
+  "1sem 2022 June Exam Papers UPdated",
+  "3sem 2023 physics imp question added"
 ];
 const updates_pdf = document.getElementById("updates_pdf");
 updates_pdf.innerHTML = updates_pdf_data

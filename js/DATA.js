@@ -139,6 +139,12 @@ const DATA = [
     id: "loimnbhse",
     sem: "3",
     sem_word: "three",
+    physics: [
+      {
+        title: "3rd sem Physics Important questions List",
+        link: "./pdfs/3sem/imp_question/3nd_sem_physics_questions_IMP.pdf",
+      },
+    ],
   },
   {
     id: "derfnhjyk",
